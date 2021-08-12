@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+
+<!-- This is the icon library -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<html>
+    <head>
+        <title> Google </title>
+        <style>
+
+            #header-style {
+                padding: 6px;
+                height: 60px;
+                white-space: nowrap;
+            }
+
+            .header-left-elements {
+                float: left;
+                font-family: Roboto, arial, sans-serif;
+                font-size: 14px;
+                margin: 0px 5px 0px 15px;
+                padding: 5px;
+                text-decoration:none;
+                color: #222222;
+                white-space: nowrap;
+            }
+
+            .header-right-elements {
+                float: right;
+                font-family: Roboto, arial, sans-serif;
+                font-size: 14px;
+                margin: 0px 5px 0px 15px;
+                padding: 5px;
+                text-decoration:none;
+                color: #222222;
+                white-space: nowrap;
+            }
+            
+            .header-right-elements:hover {
+                text-decoration: underline;
+            }
+
+            .header-left-elements:hover {
+                text-decoration: underline;
+            }
+
+            #google-apps-icon {
+                color: gray;
+                width: 24px;
+                height: 24px;
+                white-space: nowrap;
+            }
+
+            #sign-in-icon {
+                background-color: #1a73e8;
+                color: white;
+                width: 96px;
+                height: 36px;
+                border-radius: 5px, 10px, 5px, 10px;
+                white-space: nowrap;
+            }
+            
+            #google-logo-spacing{
+                height: 290px;
+            }
+
+            #google-logo-style{
+                display:block;
+                width: 272px;
+                height: 92px;
+                margin: 0px auto;
+                transform: translate(0px,198px);
+            }
+
+            #search-bar-style{
+                width: 487px;
+                height: 34px;
+                border-radius: 20px;
+            }
+
+            #search-bar-style:focus {
+                border-radius: 20px;
+                outline: none;
+                box-shadow: 1px 1px 1px gray;
+            }
+
+            #search-bar-style:hover {
+                border-radius: 20px;
+                outline: none;
+                box-shadow: 1px 1px 1px gray;
+            }
+
+            #search-icon-style{
+                width: 20px;
+                height: 20px;
+            }
+
+            #search-by-voice-icon-style{
+                width: 24px;
+                height: 24px;
+                color: blue;
+            }
+
+
+            .display-inline{
+                display: inline-block;
+            }
+
+            #google-search-button-style{
+                width: 127.37px;
+                height: 35.99px;
+                margin: 11px 4px;
+                padding: 0px 16px;
+            }
+
+            #google-feeling-lucky-button-style{
+                width: 142.47px;
+                height: 35.99px;
+                margin: 11px 4px;
+                padding: 0px 16px;
+            }
+
+            .center-elements {
+                margin: 0px auto;
+                text-align: center;
+            }
+
+
+        
+        </style>
+    </head>
+    
+    <body>
+        <header id = header-style>
+            <a class = header-left-elements href ="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a class = header-left-elements href ="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+            <div>
+                <button class = header-right-elements id = sign-in-icon type = "button"> Sign in </button>
+                <img class = header-right-elements id = google-apps-icon 
+                src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAHlBMVEX///8AAAD09PTLy8uUlJSPj4/5+fnl5eXNzc3IyMgWJBrXAAABJklEQVR4nO3cQQ6CMBRFUSwtpfvfsAv4qD8EI6nnzF/0MhMpywIAAAAAAAAAcC+j1YQt7Hpm13rYbZmPa+PCwvbIKPHKpHbxm5bUrl1YWE8WrqnderKwKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChRcW7qndfoPCrWQcDL+6i89+AAAAAO/1sX4Wb0YsJbMbBz/y98wuntM4z3mLV4Xz32tTqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoX3K5z/f/z5n8UAAACA/zD/OxXmfy/G/PfaFCpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFDhPIXzn7cYrSbEZyN6ZtfiuYkt83EtXhkAAAAAAAAAgN96AuUrQOqYK1c6AAAAAElFTkSuQmCC" alt = "Google apps icon">
+                <a class = header-right-elements href ="https://www.google.com/imghp?hl=en&ogbl">Images</a>  
+                <a class = header-right-elements href ="https://mail.google.com/mail/&ogbl">Gmail</a>
+            </div>
+        </header>  
+            
+        <div id = google-logo-spacing>
+            <img id = google-logo-style src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google Logo" >
+        </div>
+        <br />
+        <form class = center-elements action = "https://www.google.com/search" method="get">
+            <button class = display-inline id = search-icon-style type="submit"><i class="fa fa-search"></i></button>
+            <input class = display-inline id = search-bar-style type = "text" name ="searchbar">
+            <button class = display-inline id = search-by-voice-icon-style type="button"><i class="fa fa-microphone"></i></button>
+        </form>
+        <br />
+        <div class = center-elements>
+            <button class = display-inline id = google-search-button-style> Google Search </button>
+            <button class = display-inline id = google-feeling-lucky-button-style> I'm Feeling Lucky</button>
+        </div>
+
+
+
+    </body>
+
+
+</html>
